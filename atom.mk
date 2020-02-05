@@ -7,6 +7,8 @@ LOCAL_CATEGORY_PATH := libs
 LOCAL_DESCRIPTION := \
 	Python ctypes bindings for olympe dependencies (libpdraw, ....)
 
+LOCAL_LIBRARIES := libulog-py
+
 LOCAL_EXPAND_CUSTOM_VARIABLES := 1
 
 OLYMPE_DEPS_LIBS_NAME := $\
